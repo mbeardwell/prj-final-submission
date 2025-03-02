@@ -23,13 +23,13 @@ This project borrows existing dynamic program instrumentation techniques to prop
 
 ## Introduction
 
-This tool is designed to be built and run on Armel Debian on an ARMv7(-a) CPU. It requires the 'librunt' and 'keystone' GitHub repositories aswell as other dependencies listed in "dependencies.txt" which can be installed from Debian's repositories using the 'apt' tool.
+This tool is designed to be built and run on Armel Debian on an ARMv7(-a) CPU. It requires the 'librunt' and 'keystone' GitHub repositories as well as other dependencies listed in "dependencies.txt" which can be installed from Debian's repositories using the 'apt' tool.
 
 ## Installation
 
 To set up the project, clone the repository:
 
-```
+```bash
 git clone https://github.com/mbeardwell/arm-fp-emu.git
 cd arm-fp-emu
 ```
@@ -50,14 +50,14 @@ _Note: The script automates installation but does not guarantee robustness or sa
   These are not included already because I did not contribute to them.
   This can be done from the project root directory using commands like:
   
-```
+```bash
 git clone https://github.com/stephenrkell/librunt.git contrib/librunt
 git clone https://github.com/keystone-engine/keystone.git contrib/keystone
 ```
 
 3. Build
 
-```
+```bash
 make librunt
 make keystone
 make arm-fp-emu
@@ -70,13 +70,13 @@ This can take hours which is why each must be made separately. If something goes
 
 To run tests:
 
-```
+```bash
 make test
 ```
 
 This will run something of the form
 
-```
+```bash
 LD_LIBRARY_PATH=[...]/lib LD_PRELOAD=./build/arm-fp-emu.so ./tests/build/vadd10 10
 ```
 
@@ -94,7 +94,7 @@ This video provides a step-by-step demonstration of how my floating-point emulat
 * How the emulation routine processes floating-point operations.
 * Why this method is eventually faster than kernel-based instruction emulation.
 
-Watch the project demonstration here:  
+**Watch the project demonstration here:**
 [Watch on YouTube](https://youtu.be/_kRSL5yiPrg)
 
 ## Project Paper
