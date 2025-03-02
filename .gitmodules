@@ -1,0 +1,6 @@
+[submodule "contrib/librunt"]
+	path = contrib/librunt
+	url = https://github.com/stephenrkell/librunt.git
+[submodule "contrib/keystone"]
+	path = contrib/keystone
+	url = https://github.com/keystone-engine/keystone.git

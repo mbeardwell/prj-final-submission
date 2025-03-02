@@ -1,0 +1,13 @@
+diff --git a/src/preload.c b/src/preload.c
+index e60e280..f2dbc0f 100644
+--- a/src/preload.c
++++ b/src/preload.c
+@@ -72,6 +72,8 @@ void *dlopen(const char *filename, int flag)
+ 						"/lib/i386-linux-gnu/", "/usr/lib/i386-linux-gnu/",
+ #elif defined(__arm__) && defined(__ARM_EABI__) && defined(__ARM_FP)
+ 						"/lib/arm-linux-gnueabihf/", "/usr/lib/arm-linux-gnueabihf/",
++#elif defined(__arm__) && defined(__ARM_EABI__)
++						"/lib/arm-linux-gnueabi/", "/usr/lib/arm-linux-gnueabi/",
+ #else
+ #error "Unrecognised platform"
+ #endif

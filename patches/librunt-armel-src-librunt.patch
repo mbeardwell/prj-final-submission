@@ -1,0 +1,13 @@
+diff --git a/src/librunt.c b/src/librunt.c
+index b9fdf22..eff2e88 100644
+--- a/src/librunt.c
++++ b/src/librunt.c
+@@ -65,6 +65,8 @@ const char __ldso_name[] __attribute__((visibility("protected"))) = "/lib64/ld-l
+ const char __ldso_name[] __attribute__((visibility("protected"))) = "/lib/ld-linux.so.2";
+ #elif defined (__arm__) && defined(__ARM_EABI__) && defined(__ARM_FP)
+ const char __ldso_name[] __attribute__((visibility("protected"))) = "/lib/ld-linux-armhf.so.3";
++#elif defined (__arm__) && defined(__ARM_EABI__)
++const char __ldso_name[] __attribute__((visibility("protected"))) = "/lib/ld-linux.so.3";
+ #else
+ #error "Unrecognised architecture/ABI"
+ #endif
