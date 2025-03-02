@@ -94,8 +94,7 @@ This video provides a step-by-step demonstration of how my floating-point emulat
 * How the emulation routine processes floating-point operations.
 * Why this method is eventually faster than kernel-based instruction emulation.
 
-**Watch the project demonstration here:**
-
+**Watch the project demonstration here:**  
 [Watch on YouTube](https://youtu.be/_kRSL5yiPrg)
 
 ## Project Paper
