@@ -95,7 +95,9 @@ LD_LIBRARY_PATH is necessary for how I'm using Keystone, but Keystone could tech
 
 An overview of the project and demonstration can be seen in the video below:
 
-[![Project Walkthrough](assets/code-walkthrough-thumbnail.png)](assets/code-walkthrough.mp4)
+<a href="assets/code-walkthrough.mp4">
+    <img src="assets/code-walkthrough-thumbnail.png" width="300">
+</a>
 
 **Project Paper**
 --------------------
