@@ -114,3 +114,31 @@ The full project report is available here:
 
 **References**
 --------------
+
+1. ARM Options. https://gcc.gnu.org/onlinedocs/gcc/ARM-Options.html.
+2. Debian ARM Ports. https://wiki.debian.org/ArmPorts.
+3. Debian Ports. https://www.debian.org/ports/index.en.html.
+4. GNU Binutils. https://www.gnu.org/software/binutils/.
+5. The ‘Capstone’ Disassembly Framework. http://www.capstone-engine.org/.
+6. ld.so(8) — Linux manual page. https://man7.org/linux/man-pages/man8/ld.so.8.html, Aug 2021.
+7. ARM Limited. Arm® architecture reference manual: Armv7-a and armv7-r edition. https://developer.arm.com/documentation/ddi0406/cd/.
+8. Fabrice Bellard. QEMU, a Fast and Portable Dynamic Translator. In FREENIX Track: 2005 USENIX Annual Technical Conference, pages 41–46, 2005.
+9. Derek Bruening and Saman Amarasinghe. Efficient, transparent, and comprehensive runtime code manipulation. PhD thesis, Massachusetts Institute of Technology, Department of Electrical Engineering . . . , 2004. 
+10. Buddhika Chamith, Bo Joel Svensson, Luke Dalessandro, and Ryan R Newton. Instruction punning: Lightweight instrumentation for x86-64. In Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation, pages 320–332, 2017. 
+11. Syed Zohaib Gilani, Nam Sung Kim, and Michael Schulte. Virtual floating-point units for low-power embedded processors. In 2012 IEEE 23rd International Conference on Application-Specific Systems, Architectures and Processors, pages 61–68, 2012.
+12. Gabriel Ferreira Teles Gomes and E Borin. Indirect branch emulation techniques in virtual machines. PhD thesis, Dissertation, University of
+Campinas, 2014. 
+13. Mingyi Huang and Chengyu Song. ARMPatch: A Binary Patching Framework for ARM-based IoT Device. Journal of Web Engineering, pages 1829–1852, 2021.
+14. Peter B Kessler. Fast breakpoints: Design and implementation. ACM SIGPLAN Notices, 25(6):78–84, 1990. 
+15. Michael A. Laurenzano, Mustafa M. Tikir, Laura Carrington, and Allan Snavely. Pebil: Efficient static binary instrumentation for linux. In 2010
+IEEE International Symposium on Performance Analysis of Systems & Software (ISPASS), pages 175–183, 2010. 
+16. Arm Ltd. ARM Architecture Reference Manual Debug supplement: Breakpoint Debug Events. https://developer.arm.com/documentation/ddi0379/a/Debug-Events/Software-Debug-events/Breakpoint-Debug-events.
+17. Arm Ltd. ARM Compiler - Arm C and C++ Libraries and Floating-Point Support User Guide Version 6.11: About floating-point support. https://developer.arm.com/documentation/100073/0611/floating-point-support/about-floating-point-support.
+18. Arm Ltd. What is RISC? https://www.arm.com/glossary/risc.
+19. Nicholas Nethercote and Julian Seward. Valgrind: a framework for heavyweight dynamic binary instrumentation. ACM Sigplan notices, 42(6):89–100, 2007.
+20. Ignacio Sanmillan. Executable and Linkable Format 101 - Part 1 Sections and Segments. https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/.
+
+**Author**
+----------
+
+[Matthew Beardwell](https://github.com/mbeardwell)
