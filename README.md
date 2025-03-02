@@ -93,9 +93,9 @@ LD_LIBRARY_PATH is necessary for how I'm using Keystone, but Keystone could tech
 **Video Walkthrough**
 ---------------------
 
-This video provides a step-by-step demonstration of how my floating-point emulation program works using the GNU Debugger (GDB). It walks through a test binary, showing how floating-point instructions are replaced with trampoline code that redirects execution to an emulation routine.
+This video provides a step-by-step demonstration of how my floating-point emulation program works using the GNU Debugger (GDB). It walks through a test binary, showing how floating-point instructions are replaced with branches to trampoline code that redirects execution to an emulation routine.
 
-# What’s Covered in the Video?
+### What’s Covered in the Video?
 
 * Debugging the program using GDB.
 * How floating-point instructions are replaced with branch instructions.
@@ -103,9 +103,8 @@ This video provides a step-by-step demonstration of how my floating-point emulat
 * How the emulation routine processes floating-point operations.
 * Why this method is eventually faster than kernel-based instruction emulation.
 
-<a href="https://youtu.be/_kRSL5yiPrg">
-    <img src="assets/code-walkthrough-thumbnail.png" width="300">
-</a>
+Watch the project demonstration here:  
+[Watch on YouTube](https://youtu.be/_kRSL5yiPrg)
 
 **Project Paper**
 --------------------
