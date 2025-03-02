@@ -89,3 +89,19 @@ LD_LIBRARY_PATH=[...]/lib LD_PRELOAD=./build/arm-fp-emu.so ./tests/build/vadd10 
 ```
 
 LD_LIBRARY_PATH is necessary for how I'm using Keystone, but Keystone could technically be used in a way that removes the need to use this environment variable.
+
+**Video Walkthrough**
+---------------------
+
+An overview of the project and demonstration can be seen in the video below:
+
+[![Project Walkthrough](assets/code-walkthrough-thumbnail.png)](assets/code-walkthrough.mp4)
+
+**Project Paper**
+--------------------
+
+The full project report is available here:  
+[Download the Report](docs/1681382_report.pdf)
+
+**References**
+--------------
