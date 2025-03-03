@@ -23,7 +23,7 @@ This project borrows existing dynamic program instrumentation techniques to prop
 
 ## Introduction
 
-This tool is designed to be built and run on Armel Debian on an ARMv7(-a) CPU. It requires the 'librunt' and 'keystone' GitHub repositories as well as other dependencies listed in "dependencies.txt" which can be installed from Debian's repositories using the 'apt' tool.
+This tool is designed to be built and run on Armel Debian on an ARMv7(-a) CPU. It requires the 'librunt' and 'keystone' git repositories as well as other dependencies.
 
 ## Installation
 
