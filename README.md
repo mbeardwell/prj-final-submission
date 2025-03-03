@@ -36,26 +36,16 @@ cd arm-fp-emu
 
 ## Build instructions
 
-1. To install dependencies:
+1. Install dependencies
 
 ```
+git submodule update --init --recursive
 bash install-dependencies.sh
 ```
 
 _Note: The script automates installation but does not guarantee robustness or safety._
 
-2. Download dependency repositories
-
-  The 'librunt' and 'keystone' GitHub repositories need to be downloaded to the contrib/librunt and contrib/keystone folders.
-  These are not included already because I did not contribute to them.
-  This can be done from the project root directory using commands like:
-  
-```bash
-git clone https://github.com/stephenrkell/librunt.git contrib/librunt
-git clone https://github.com/keystone-engine/keystone.git contrib/keystone
-```
-
-3. Build
+2. Build
 
 ```bash
 make librunt
